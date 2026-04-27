@@ -62,7 +62,7 @@ permalink: /
 
 ## Experience
 
-- **Lecturer**, School of Computer Science and Engineering, Beihang University
+- **Postdoc, Lecturer**, School of Computer Science and Engineering, Beihang University
 
 ## Awards & Honors
 
