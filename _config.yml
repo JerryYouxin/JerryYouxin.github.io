@@ -40,11 +40,24 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Plugins explicitly listed so the build works regardless of whether
+# the github-pages meta-gem or a plain Jekyll install is used.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default front-matter values (avoid Liquid errors on pages that omit them)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - vendor
   - node_modules
-  - .github
   - .gitignore
