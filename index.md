@@ -29,10 +29,10 @@ permalink: /
     </p>
 
     <p>
-      I have published 40+ peer-reviewed papers, including 10 first-author papers at
+      I have published 40+ peer-reviewed papers at
       <strong>SC</strong>, <strong>ASPLOS</strong>, <strong>IEEE TC</strong>,
       <strong>ACM TACO</strong>, <strong>IPDPS</strong>, <strong>ICPP</strong>,
-      and <strong>FCS</strong>. Feel free to reach out if you'd like to collaborate on HPC,
+      <strong>FCS</strong>, etc. Feel free to reach out if you'd like to collaborate on HPC,
       systems performance, profiling tools, or LLM systems.
     </p>
 
