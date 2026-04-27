@@ -45,3 +45,15 @@
   url: https://github.com/JerryYouxin/
   demo: ""
   paper: https://doi.org/10.1109/SC41406.2024.00063
+
+- name: MSToolkit
+  description: An open-source performance analysis toolkit developed by the BUAA HiPO group, providing infrastructure for HPC and systems profiling research.
+  image: /assets/images/projects/placeholder.png
+  tags:
+    - C++
+    - Performance Analysis
+    - HPC
+    - Open Source
+  url: https://github.com/buaa-hipo/MSToolkit
+  demo: ""
+  paper: ""
