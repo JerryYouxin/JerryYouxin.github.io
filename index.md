@@ -111,7 +111,6 @@ Core member of multiple national-level research projects, including:
   <div class="pub-venue">
     {{ pub.venue }}, {{ pub.year }}
     {%- if pub.ccf and pub.ccf != "" %} <span class="ccf-badge ccf-{{ pub.ccf | downcase }}">CCF-{{ pub.ccf }}</span>{% endif -%}
-    {%- if pub.core and pub.core != "" %} <span class="ccf-badge core">CORE-{{ pub.core }}</span>{% endif -%}
     {%- if pub.note and pub.note != "" %} <em style="color: var(--color-accent);">· {{ pub.note }}</em>{% endif -%}
   </div>
   <div class="pub-links">

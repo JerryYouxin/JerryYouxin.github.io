@@ -28,29 +28,141 @@
   type: conference
   ccf: A
   core: A*
-  pdf: ''
+  pdf: https://doi.org/10.1145/3779212.3790157
   code: ''
   project: ''
   bibtex: ''
   highlight: false
   note: ''
+- title: Exploiting Efficient Mapping and Pipelined Execution for Accelerating SpMV on Tensor Cores
+  authors: Kaige Zhang, Hailong Yang, me, Tianyu Feng, Yufan Xu, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP), pp. 245-258
+  venue_short: PPoPP
+  year: 2026
+  type: conference
+  ccf: A
+  core: A*
+  pdf: https://doi.org/10.1145/3774934.3786441
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: Towards Efficient LLM Inference via Collective and Adaptive Speculative Decoding
+  authors: Siqi Wang, Hailong Yang, Xuezhu Wang, Tongxuan Liu, Pengbo Wang, Yufan Xu, Xuning Liang, Kejie Ma, Tianyu Feng, me, Ruihao Gong, Rui Wang, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), pp. 973-990
+  venue_short: SC
+  year: 2025
+  type: conference
+  ccf: A
+  core: A*
+  pdf: https://doi.org/10.1145/3712285.3759834
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: Smurfs
+- title: Zero-Value Code Specialization via Profile-Guided Control Data Flow Analysis
+  authors: Shaokang Du, Kelun Lei, me, Hailong Yang, Yufan Xu, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), pp. 316-330
+  venue_short: SC
+  year: 2025
+  type: conference
+  ccf: A
+  core: A*
+  pdf: https://doi.org/10.1145/3712285.3759840
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ZeroSpec
+- title: Identifying Performance Inefficiencies of Parallel Program with Spatial and Temporal Trace Analysis
+  authors: Zhibo Xuan, Xin Sun, me, Hailong Yang, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS), 36(7): 1387-1400'
+  venue_short: IEEE TPDS
+  year: 2025
+  type: journal
+  ccf: A
+  core: ''
+  pdf: https://doi.org/10.1109/TPDS.2025.3566735
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: STAD
 - title: 'SimTrace: Exploiting Spatial and Temporal Sampling for Large-Scale Performance Analysis'
   authors: Zhibo Xuan, me, Tianyu Feng, Hailong Yang, Zhongzhi Luan, Yi Liu, Depei Qian
-  venue: 'ACM Transactions on Architecture and Code Optimization (TACO), 22(2): 1-26'
+  venue: 'ACM Transactions on Architecture and Code Optimization (TACO), 22(2): 55:1-55:26'
   venue_short: TACO
   year: 2025
   type: journal
   ccf: A
   core: ''
-  pdf: ''
+  pdf: https://doi.org/10.1145/3720544
   code: ''
   project: ''
   bibtex: ''
   highlight: true
-  note: 共同第一作者 / Co-first author
+  note: Co-first author
+- title: Exploiting Dynamic Regular Patterns in Irregular Programs for Efficient Vectorization
+  authors: Kelun Lei, Shaokang Du, me, Hailong Yang, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: 'ACM Transactions on Architecture and Code Optimization (TACO), 22(2): 50:1-50:25'
+  venue_short: TACO
+  year: 2025
+  type: journal
+  ccf: A
+  core: ''
+  pdf: https://doi.org/10.1145/3716874
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: 'ESC: Effective Submanifold Convolution using Tensor Cores'
+  authors: Xuezhu Wang, Hailong Yang, me, Yufan Xu, Xiaoyan Liu, Siqi Wang, Kaige Zhang, Mingzhen Li, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: International Conference on Parallel Processing (ICPP), pp. 575-585
+  venue_short: ICPP
+  year: 2025
+  type: conference
+  ccf: B
+  core: A
+  pdf: https://doi.org/10.1145/3754598.3754633
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: Efficient Locality-aware Instruction Stream Scheduling for Stencil Computation on ARM Processors
+  authors: Shanghao Liu, Hailong Yang, me, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: ACM International Conference on Supercomputing (ICS), pp. 250-264
+  venue_short: ICS
+  year: 2025
+  type: conference
+  ccf: B
+  core: A
+  pdf: https://doi.org/10.1145/3721145.3725760
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: 'GNNPerf: Towards Effective Performance Profiling and Analysis Across GNN Frameworks'
+  authors: Kejie Ma, Hailong Yang, Zizheng Zhang, me, Zhibo Xuan, Qingxiao Sun, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: IEEE International Parallel and Distributed Processing Symposium (IPDPS), pp. 837-849
+  venue_short: IPDPS
+  year: 2025
+  type: conference
+  ccf: B
+  core: A
+  pdf: https://doi.org/10.1109/IPDPS64566.2025.00079
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
 - title: 'Hotspy: Identifying Performance Hotspot with Graph Neural Network Based Static Analysis'
-  authors: Dongyu Huo, me, Zhibo Xuan, Hailong Yang, Zhongzhi Luan, Depei Qian
-  venue: CCF Transactions on High Performance Computing (CCF THPC)
+  authors: Da Huo, me, Zhibo Xuan, Hailong Yang, Zhongzhi Luan, Depei Qian
+  venue: 'CCF Transactions on High Performance Computing (CCF THPC), 7(3): 260-274'
   venue_short: CCF THPC
   year: 2025
   type: journal
@@ -63,14 +175,28 @@
   highlight: false
   note: ''
 - title: Exploiting Transformer-Based Static Binary Analysis for Identifying Inefficient Locks
-  authors: Zhibo Xuan, me, Hailong Yang, Zhongzhi Luan, Depei Qian
-  venue: IFIP International Conference on Network and Parallel Computing (NPC)
+  authors: Zhibo Xuan, me, Hailong Yang, Jingqi Chen, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: IFIP International Conference on Network and Parallel Computing (NPC), pp. 90-102
   venue_short: NPC
   year: 2025
   type: conference
   ccf: C
   core: ''
-  pdf: ''
+  pdf: https://doi.org/10.1007/978-3-032-10459-5_8
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: Identifying Potential Anomalous Operations in Graph Neural Network Training
+  authors: Zhibo Xuan, Hailong Yang, me, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: International Symposium on Advanced Parallel Processing Technologies (APPT), LNCS, pp. 367-376
+  venue_short: APPT
+  year: 2025
+  type: conference
+  ccf: ''
+  core: ''
+  pdf: https://doi.org/10.1007/978-981-95-1021-4_27
   code: ''
   project: ''
   bibtex: ''
@@ -78,32 +204,18 @@
   note: ''
 - title: 'GVARP: Detecting Performance Variance on Large-Scale Heterogeneous Systems'
   authors: me, Zhibo Xuan, Hailong Yang, Zhongzhi Luan, Yi Liu, Depei Qian
-  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)
+  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), Article 57
   venue_short: SC
   year: 2024
   type: conference
   ccf: A
   core: A*
-  pdf: https://dl.acm.org/doi/10.1109/SC41406.2024.00063
+  pdf: https://doi.org/10.1109/SC41406.2024.00063
   code: ''
   project: ''
   bibtex: ''
   highlight: true
-  note: 唯一第一作者
-- title: 'Moirae: Generating High-Performance Composite Stencil Programs with Global Optimizations'
-  authors: Xiaoyan Liu, Hailong Yang, me, Zhongzhi Luan, Depei Qian
-  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)
-  venue_short: SC
-  year: 2024
-  type: conference
-  ccf: A
-  core: A*
-  pdf: ''
-  code: ''
-  project: ''
-  bibtex: ''
-  highlight: false
-  note: ''
+  note: Sole first author
 - title: Exploiting Structured Feature and Runtime Isolation for High-Performant Recommendation Serving
   authors: me, Hailong Yang, Siqi Wang, Tao Peng, Chen Ding, Xinyuan Li, Bangduo Chen, Zhongzhi Luan, Tongxuan Liu, Yong Li, Depei Qian
   venue: 'IEEE Transactions on Computers (TC), 73(11): 2474-2487'
@@ -117,44 +229,114 @@
   project: ''
   bibtex: ''
   highlight: true
-  note: 唯一第一作者（系统名 RecServe）
+  note: 'Sole first author (system: RecServe)'
+- title: 'AtRec: Accelerating Recommendation Model Training on CPUs'
+  authors: Siqi Wang, Tianyu Feng, Hailong Yang, me, Bangduo Chen, Tongxuan Liu, Zhongzhi Luan, Depei Qian
+  venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS), 35(6): 750-763'
+  venue_short: IEEE TPDS
+  year: 2024
+  type: journal
+  ccf: A
+  core: ''
+  pdf: https://doi.org/10.1109/TPDS.2024.3381186
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: 'PRoof: A Comprehensive Hierarchical Profiling Framework for Deep Neural Networks with Roofline Analysis'
+  authors: Siyu Wu, Hailong Yang, me, Ruihao Gong, Yi Liu, Zhongzhi Luan, Depei Qian
+  venue: International Conference on Parallel Processing (ICPP), pp. 822-832
+  venue_short: ICPP
+  year: 2024
+  type: conference
+  ccf: B
+  core: A
+  pdf: https://doi.org/10.1145/3673038.3673116
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: Retrospection on the Performance Analysis Tools for Large-Scale HPC Programs
+  authors: Zhibo Xuan, me, Hailong Yang, Mingzhen Li, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC), pp. 34-44
+  venue_short: HiPC
+  year: 2024
+  type: conference
+  ccf: C
+  core: ''
+  pdf: https://doi.org/10.1109/HiPC62374.2024.00013
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
 - title: 'VClinic: A Portable and Efficient Framework for Fine-Grained Value Profilers'
   authors: me, Hailong Yang, Kelun Lei, Zhongzhi Luan, Depei Qian
-  venue: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
+  venue: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), pp. 892-904
   venue_short: ASPLOS
   year: 2023
   type: conference
   ccf: A
   core: A*
-  pdf: https://dl.acm.org/doi/10.1145/3575693.3576934
+  pdf: https://doi.org/10.1145/3575693.3576934
   code: https://zenodo.org/records/7311322
   project: ''
   bibtex: ''
   highlight: true
-  note: 唯一第一作者
+  note: Sole first author
 - title: 'TrivialSpy: Identifying Software Triviality via Fine-grained and Dataflow-based Value Profiling'
   authors: me, Hailong Yang, Kelun Lei, Zhongzhi Luan, Depei Qian
-  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)
+  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), pp. 90:1-90:13
   venue_short: SC
   year: 2023
   type: conference
   ccf: A
   core: A*
-  pdf: https://dl.acm.org/doi/10.1145/3581784.3607052
+  pdf: https://doi.org/10.1145/3581784.3607052
   code: ''
   project: ''
   bibtex: ''
   highlight: true
-  note: 唯一第一作者
-- title: 'EasyScale: Accuracy-Consistent Elastic Training for Deep Learning'
-  authors: Mingzhen Li, Wencong Xiao, me, Hailong Yang, Biao Sun, Hanyu Zhao, Shiru Ren, Zhongzhi Luan, Xianyan Jia, Yi Liu, Yong Li, Depei Qian
-  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)
-  venue_short: SC
+  note: Sole first author
+- title: 'BiRFIA: Selective Binary Rewriting for Function Interception on ARM'
+  authors: Kelun Lei, me, Hailong Yang, Zhongzhi Luan, Depei Qian
+  venue: ACM International Conference on Supercomputing (ICS), pp. 87-98
+  venue_short: ICS
   year: 2023
   type: conference
-  ccf: A
-  core: A*
-  pdf: ''
+  ccf: B
+  core: A
+  pdf: https://doi.org/10.1145/3577193.3593701
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: Accelerating Big Data Application by Eliminating Redundancy on Hadoop Cluster
+  authors: Kelun Lei, Shaokang Du, me, Zhibo Xuan, Haoran Kong, Hailong Yang, Jing Shang, Zhiwen Xiao, Zhihui Wu, Zhongzhi Luan, Depei Qian
+  venue: IEEE International Conference on Parallel and Distributed Systems (ICPADS), pp. 751-756
+  venue_short: ICPADS
+  year: 2023
+  type: conference
+  ccf: C
+  core: ''
+  pdf: https://doi.org/10.1109/ICPADS60453.2023.00114
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: Efficient Deep Molecular Dynamic Model Training on Heterogeneous System
+  authors: Shaokang Du, me, Hailong Yang, Jing Shang, Zhiwen Xiao, Zhihui Wu, Zhongzhi Luan, Depei Qian
+  venue: IEEE International Conference on Parallel and Distributed Systems (ICPADS), pp. 1869-1876
+  venue_short: ICPADS
+  year: 2023
+  type: conference
+  ccf: C
+  core: ''
+  pdf: https://doi.org/10.1109/ICPADS60453.2023.00257
   code: ''
   project: ''
   bibtex: ''
@@ -162,57 +344,113 @@
   note: ''
 - title: Vectorizing SpMV by Exploiting Dynamic Regular Patterns
   authors: me, Changxi Liu, Hailong Yang, Pengbo Wang, Zhongzhi Luan, Depei Qian
-  venue: International Conference on Parallel Processing (ICPP)
+  venue: International Conference on Parallel Processing (ICPP), pp. 53:1-53:12
   venue_short: ICPP
   year: 2022
   type: conference
   ccf: B
   core: A
-  pdf: https://dl.acm.org/doi/10.1145/3545008.3545042
+  pdf: https://doi.org/10.1145/3545008.3545042
   code: ''
   project: ''
   bibtex: ''
   highlight: false
-  note: 第一作者
+  note: First author
 - title: 'PowerSpector: Towards Energy Efficiency with Calling-Context-Aware Profiling'
   authors: me, Hailong Yang, Zhibo Xuan, Zhongzhi Luan, Depei Qian
-  venue: IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+  venue: IEEE International Parallel and Distributed Processing Symposium (IPDPS), pp. 1272-1282
   venue_short: IPDPS
   year: 2022
   type: conference
   ccf: B
   core: A
-  pdf: https://www.computer.org/csdl/proceedings-article/ipdps/2022/810600b272/1F1Wfa62yI0
+  pdf: https://doi.org/10.1109/IPDPS53621.2022.00126
   code: ''
   project: ''
   bibtex: ''
   highlight: false
-  note: 第一作者
+  note: First author
 - title: Accelerating the Cryo-EM Structure Determination in RELION on GPU Cluster
-  authors: Xiaoyan Liu, Hailong Yang, me, Zhongzhi Luan, Depei Qian
-  venue: Frontiers of Computer Science (FCS)
+  authors: me, Hailong Yang, Zhongzhi Luan, Depei Qian
+  venue: 'Frontiers of Computer Science (FCS), 16(3): 163102'
   venue_short: FCS
   year: 2022
   type: journal
   ccf: B
   core: ''
-  pdf: https://journal.hep.com.cn/fcs/EN/10.1007/s11704-020-0169-8
+  pdf: https://doi.org/10.1007/s11704-020-0169-8
   code: ''
   project: ''
   bibtex: ''
   highlight: false
-  note: 年份与作者署名待核实
+  note: First author
+- title: 'The Deep Learning Compiler: A Comprehensive Survey'
+  authors: Mingzhen Li, Yi Liu, Xiaoyan Liu, Qingxiao Sun, me, Hailong Yang, Zhongzhi Luan, Lin Gan, Guangwen Yang, Depei Qian
+  venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS), 32(3): 708-727'
+  venue_short: IEEE TPDS
+  year: 2021
+  type: journal
+  ccf: A
+  core: ''
+  pdf: https://doi.org/10.1109/TPDS.2020.3030548
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: 'DRStencil: Exploiting Data Reuse within Low-order Stencil on GPU'
+  authors: me, Hailong Yang, Zhonghui Jiang, Zhongzhi Luan, Depei Qian
+  venue: IEEE International Conference on High Performance Computing & Communications (HPCC), pp. 63-70
+  venue_short: HPCC
+  year: 2021
+  type: conference
+  ccf: C
+  core: ''
+  pdf: https://doi.org/10.1109/HPCC-DSS-SmartCity-DependSys53884.2021.00036
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: First author
+- title: Automatic Code Generation and Optimization of Large-scale Stencil Computation on Many-core Processors
+  authors: Mingzhen Li, Yi Liu, Hailong Yang, Yongmin Hu, Qingxiao Sun, Bangduo Chen, me, Xiaoyan Liu, Zhongzhi Luan, Depei Qian
+  venue: International Conference on Parallel Processing (ICPP), pp. 34:1-34:12
+  venue_short: ICPP
+  year: 2021
+  type: conference
+  ccf: B
+  core: A
+  pdf: https://doi.org/10.1145/3472456.3473517
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: ''
+- title: 'ZeroSpy: Exploring Software Inefficiency with Redundant Zeros'
+  authors: me, Hailong Yang, Zhongzhi Luan, Depei Qian, Xu Liu
+  venue: International Conference for High Performance Computing, Networking, Storage, and Analysis (SC), Article 29
+  venue_short: SC
+  year: 2020
+  type: conference
+  ccf: A
+  core: A*
+  pdf: https://doi.org/10.1109/SC41405.2020.00033
+  code: ''
+  project: ''
+  bibtex: ''
+  highlight: false
+  note: First author
 - title: Performance Evaluation and Analysis of Linear Algebra Kernels in the Prototype Tianhe-3 Cluster
-  authors: me, Hailong Yang, Zhongzhi Luan, Depei Qian
-  venue: Supercomputing Frontiers Asia (SCFA), LNCS 11416
+  authors: me, Hailong Yang, Zhongzhi Luan, Yi Liu, Depei Qian
+  venue: Asian Conference on Supercomputing Frontiers (SCFA), LNCS 11416, pp. 86-105
   venue_short: SCFA
   year: 2019
   type: conference
   ccf: ''
   core: ''
-  pdf: https://link.springer.com/chapter/10.1007/978-3-030-18645-6_6
+  pdf: https://doi.org/10.1007/978-3-030-18645-6_6
   code: ''
   project: ''
   bibtex: ''
   highlight: false
-  note: 第一作者
+  note: First author

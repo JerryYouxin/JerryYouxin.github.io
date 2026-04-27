@@ -13,29 +13,35 @@
 #   paper         Related paper link (optional)
 # ============================================================
 
-- name: Awesome Research Project
-  description: A short, clear one-sentence description of what this project does.
+- name: VClinic
+  description: A portable and efficient framework for building fine-grained value profilers (ASPLOS '23).
   image: /assets/images/projects/placeholder.png
   tags:
-  - Python
-  - Deep Learning
+    - C++
+    - Profiling
+    - HPC
+  url: https://zenodo.org/records/7311322
+  demo: ""
+  paper: https://doi.org/10.1145/3575693.3576934
+
+- name: Hotspy
+  description: GNN-based static analysis tool for identifying performance hotspot functions without program pre-execution.
+  image: /assets/images/projects/placeholder.png
+  tags:
+    - Python
+    - LLVM
+    - GNN
+  url: https://github.com/hd9568/hotspy-tool
+  demo: ""
+  paper: https://doi.org/10.1007/s42514-025-00220-7
+
+- name: GVARP
+  description: A profiling tool for detecting performance variance on large-scale heterogeneous systems (SC '24).
+  image: /assets/images/projects/placeholder.png
+  tags:
+    - C++
+    - Performance Analysis
+    - HPC
   url: https://github.com/JerryYouxin/
-  demo: ''
-  paper: ''
-- name: Open Source Toolkit
-  description: A toolkit for researchers working on the XYZ problem.
-  image: /assets/images/projects/placeholder.png
-  tags:
-  - C++
-  - Toolkit
-  url: https://github.com/JerryYouxin/
-  demo: ''
-  paper: ''
-- name: Course Project
-  description: An interesting project from a graduate course.
-  image: /assets/images/projects/placeholder.png
-  tags:
-  - Research
-  url: ''
-  demo: ''
-  paper: ''
+  demo: ""
+  paper: https://doi.org/10.1109/SC41406.2024.00063

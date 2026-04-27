@@ -200,9 +200,8 @@ li { margin: 0.25em 0; }
   margin: 2px 0;
 }
 .pub-authors .me {
-  font-weight: 700;
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  font-weight: 800;
+  color: var(--color-text);
 }
 .pub-venue {
   color: var(--color-muted);
