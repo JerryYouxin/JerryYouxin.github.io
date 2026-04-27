@@ -1,0 +1,41 @@
+# ============================================================
+# Projects data file
+# ============================================================
+# Append a new entry to add a project.
+#
+# Fields:
+#   name          Project name
+#   description   One-line description
+#   image         Cover image path (under /assets/images/projects/)
+#   tags          Tags (list)
+#   url           Main project link (GitHub / homepage)
+#   demo          Live demo link (optional)
+#   paper         Related paper link (optional)
+# ============================================================
+
+- name: Awesome Research Project
+  description: A short, clear one-sentence description of what this project does.
+  image: /assets/images/projects/placeholder.png
+  tags:
+  - Python
+  - Deep Learning
+  url: https://github.com/JerryYouxin/
+  demo: ''
+  paper: ''
+- name: Open Source Toolkit
+  description: A toolkit for researchers working on the XYZ problem.
+  image: /assets/images/projects/placeholder.png
+  tags:
+  - C++
+  - Toolkit
+  url: https://github.com/JerryYouxin/
+  demo: ''
+  paper: ''
+- name: Course Project
+  description: An interesting project from a graduate course.
+  image: /assets/images/projects/placeholder.png
+  tags:
+  - Research
+  url: ''
+  demo: ''
+  paper: ''

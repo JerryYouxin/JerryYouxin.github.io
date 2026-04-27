@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author.name }}">
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+  {% include navigation.html %}
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; {{ 'now' | date: '%Y' }} {{ site.author.name }}.
+        Built with <a href="https://jekyllrb.com/">Jekyll</a>, hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

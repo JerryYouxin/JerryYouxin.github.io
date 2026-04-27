@@ -1,0 +1,50 @@
+# ====================================================================
+# Site Configuration
+# ====================================================================
+
+title: "Xin You"
+tagline: "Academic Homepage"
+description: "Personal academic homepage of Xin You — HPC, performance analysis, and DL systems research."
+
+# GitHub Pages URL. Change if you use a custom domain.
+url: "https://jerryyouxin.github.io"
+baseurl: ""
+
+# ====================================================================
+# Author
+# ====================================================================
+author:
+  name: "Xin You"
+  title: "Lecturer"
+  affiliation: "School of Computer Science and Engineering, Beihang University"
+  email: "jefhque@gmail.com"
+  avatar: "/assets/images/avatar.jpg"
+
+  # Social / academic links (leave empty strings to hide a link)
+  github: "JerryYouxin"
+  google_scholar: "https://scholar.google.com/citations?user=39nC3ckAAAAJ"
+  orcid: "0000-0002-5163-4607"
+  dblp: ""
+  linkedin: ""
+  twitter: ""
+
+# ====================================================================
+# Jekyll build settings (usually no need to change)
+# ====================================================================
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+timezone: Asia/Shanghai
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - .github
+  - .gitignore
